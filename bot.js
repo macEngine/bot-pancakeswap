@@ -6,7 +6,7 @@ import inquirer from 'inquirer';
 
 const app = express();
 dotenv.config();
-
+console.log(`Transaction receipt : https://www.bscscan.com/tx/${receipt.logs[1].transactionHash}`);
 const data = {
   BNB: process.env.BNB_CONTRACT, //bnb
 
